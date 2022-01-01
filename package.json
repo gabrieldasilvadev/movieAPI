@@ -1,0 +1,16 @@
+{
+  "name": "api_movieapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {}
+}
